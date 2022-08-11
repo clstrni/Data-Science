@@ -21,7 +21,7 @@ repeat {
     )
 }
 cat("Probabilidade Full House:", full_house/n, "\n",
-    "Probabilidade Sequência:", sequencia/n, "\n", 
+    "Probabilidade SequÃªncia:", sequencia/n, "\n", 
     "Probabilidade Quadra:", quadra/n, "\n", 
     "Probabilidade General:", general/n, "\n")
 
