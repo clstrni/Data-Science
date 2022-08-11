@@ -5,13 +5,13 @@ calc_nc <- function(v1, v2, ctc, prnt) {
 
 #Utilizando scan----------------------------------------------------------------
 calagem_read <- function() {
-    cat("Informe a saturação por bases inical do solo.\n")
+    cat("Informe a saturaÃ§Ã£o por bases inical do solo.\n")
     v1 <- scan(n = 1, what = numeric())
-    cat("Informe a saturação por bases desejada.\n")
+    cat("Informe a saturaÃ§Ã£o por bases desejada.\n")
     v2 <- scan(n = 1, what = numeric())
-    cat("Informe a capacitade de troca de cátions.\n")
+    cat("Informe a capacitade de troca de cÃ¡tions.\n")
     ctc <- scan(n = 1, what = numeric())
-    cat("Informe o poder relativo de neutralização total.\n")
+    cat("Informe o poder relativo de neutralizaÃ§Ã£o total.\n")
     prnt <- scan(n = 1, what = numeric())
     return(calc_nc(v1, v2, ctc, prnt))
 }
